@@ -1,0 +1,31 @@
+# Compiled binaries
+kvreplica
+client/kvclient
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# WAL files generated at runtime (demo state, not source)
+*.wal
+
+# Test / coverage output
+*.test
+*.out
+coverage.txt
+
+# Go build/workspace files
+go.work
+go.work.sum
+
+# Editor / OS junk
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs from manual runs
+*.log
